@@ -1,0 +1,173 @@
+*{
+    padding:0px 0px;
+    margin: 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    position: relative;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    height: 300px;
+    width: 500px;
+    top: 30%;
+    left: 50%;
+    /* bottom: 50%; */
+    transform: translate(-50%,50%);
+    border: 5px solid rgb(144, 142, 252);
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left{
+    font-size: 1.8rem;
+    color: #ff004f;
+}
+.left span{
+    color: white;
+}
+#longurl{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+#shorten{
+    position: relative;
+    top: 10%;
+    left: 12%;
+    height: 40px;
+    width: 85px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    background-color: purple;
+}
+
+#shorten:hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 15%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 15%;
+    left: 12%;
+    height: 35px;
+    width: 55px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    background-color: purple;
+}
+
+#copy:hover{
+    background-color: skyblue;
+}
+
+.main p{
+    position: relative;
+    top: 35%;
+    left: 22%;
+    height: 60px;
+    width: 400px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(231, 26, 11);
+}
+
+/* media */
+@media only screen and (max-width:600px){
+    .main {
+        position: relative;
+        background: linear-gradient(135deg,#00feba,#5b548a);
+        height: 250px;
+        width: 350px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        border: 5px solid rgb(144, 142, 252);
+        border-radius: 20px;
+    }
+    .main p{
+        font-size: 35px;
+    }
+    #longurl {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        height: 30px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    #shorten {
+        position: relative;
+        top: 10%;
+        left: 12%;
+        height: 30px;
+        width: 65px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        color: white;
+        background-color: purple;
+    }
+    #shorturl {
+        position: relative;
+        top: 15%;
+        left: 10%;
+        height: 30px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    #copy {
+        position: relative;
+        top: 15%;
+        left: 12%;
+        height: 30px;
+        width: 45px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        color: white;
+        background-color: purple;
+    }
+}
